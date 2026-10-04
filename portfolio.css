@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+    color: black;
+}
+h1 {
+    font-size: 28px;
+}
+main {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.card, aside > div {
+    background-color: white;
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+    main {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+}
+@media (min-width: 992px) {
+    h1 {
+        font-size: 44px;
+    }
+    main {
+        padding-top: 36x;
+        padding-bottom: 36px;
+    }
+}
+.portfolio-intro {
+    display: none;
+}
+@media (min-width: 768px) {
+    .portfolio-intro {
+        display: block;
+    }
+}
